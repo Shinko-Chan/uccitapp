@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/directoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faculty_staff_directory" />
+
+    <Button
+        android:id="@+id/coursesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/courses" />
+
+    <Button
+        android:id="@+id/admissionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admissions_info" />
+
+    <Button
+        android:id="@+id/socialMediaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/social_media" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/emailFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:src="@android:drawable/ic_dialog_email"
+        android:contentDescription="@string/email_fab_description"
+        app:backgroundTint="@color/highContrastColor"
+        app:tint="@android:color/white" />
+</LinearLayout>
